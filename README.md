@@ -3,3 +3,5 @@ In this challenge I used Python and unsupervised learning to predict if cryptocu
 Next the best value for K was found using the original scaled DataFrame and utilizing the elbow method.  From there the clusters were predicted with K-means using the scaled data.  After a new DataFrame was completed a scatter plot was created to visualize the results.
 
 In addition the original scaled DataFrame was used to perform PCA and reduce the features to three principal components.  The total explained variance was 88.9% of the three principal components.  A new DataFrame was created with the PCA data and the "coin_id" index from the orignial data was set.  The elbow method was used to find the best K-value to initialize the k-means and finally create a scatter plot to visualize the results.
+
+It was discovered that using 3 features as opposed to 2 lead to more clear clustering results.
