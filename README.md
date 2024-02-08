@@ -1,4 +1,4 @@
-In this challenge I used Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  Loaded the crypto_market_data.csv into a DataFrame and plot to review.  Used the StandardScaler() module from scikit-learn to normalize the data from the csv file.  Once the data was scaled a new DataFrame was created with the "coin_id" index brought in from the original DataFrame.
+In this challenge Python and unsupervised learning was used to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  Loaded the crypto_market_data.csv into a DataFrame and plot to review.  Used the StandardScaler() module from scikit-learn to normalize the data from the csv file.  Once the data was scaled a new DataFrame was created with the "coin_id" index brought in from the original DataFrame.
 
 Next the best value for K was found using the original scaled DataFrame and utilizing the elbow method.  From there the clusters were predicted with K-means using the scaled data.  After a new DataFrame was completed a scatter plot was created to visualize the results.
 
